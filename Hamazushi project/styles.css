@@ -1,0 +1,187 @@
+
+
+body {
+    margin: 0;
+    font-family: "American Typewriter", serif;
+    background-color: #F1E7CD;
+    color: #062C87;
+    
+}
+
+
+
+.container1 {
+    background-color: #062C87;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo img {
+    height: 50px; 
+}
+
+nav {
+    flex-grow: 1;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.salmonaburi img {
+    align-content: center;
+    width: 300px;
+    height: 300px;
+}
+.salmonaburi{
+    width: 50%;
+    margin: 0 auto;
+}
+.engawaaburi img{
+    align-items: center;
+    width: 300px;
+    height: 300px;
+}
+.engawaaburi{
+    width: 50%;
+    margin: 0 auto;
+}
+.ebiten img {
+    align-items: center;
+    width: 300px;
+    height: 300px;
+
+}
+.ebiten{
+    width: 50%;
+    margin: 0 auto;
+    
+}
+.sides{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.aosamisosoup{
+    width: 50%;
+    margin: 0 auto;
+}
+.aosamisosoup img {
+    align-items: center;
+    width: 300px;
+    height: 230px;
+    margin-top: 50px;
+    margin-left: 110px;
+}
+.ebitenudon{
+    width: 50%;
+    margin: 0 auto;}
+
+.ebitenudon img{
+    align-items: center;
+    width: 300px;
+    height: 230px;
+    margin-top: 50px;
+    margin-left: 110px;
+}
+.asarisakamushi{
+    width: 50%;
+    margin: 0 auto;
+}
+.asarisakamushi img{
+    align-items: center;
+    width: 300px;
+    height: 230px;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .logo img {
+        margin-bottom: 20px;
+    }
+
+    .salmonaburi img,
+    .engawaaburi img,
+    .ebiten img,
+    .aosamisosoup img,
+    .ebitenudon img,
+    .asarisakamushi img {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    
+    .sides {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .aosamisosoup,
+    .ebitenudon,
+    .asarisakamushi {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 5px solid #03c7e5; 
+    border-radius: 10px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+  
+  input[type=submit] {
+    background-color:#062C87;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  
+  input[type=submit]:hover {
+    background-color:aqua
+  }
+  
+
+  .container {
+    border-radius: 5px;
+    background-color:#062C87;
+
+    padding: 20px;
+    
+  }
+  
